@@ -36,3 +36,7 @@ const currentSlide = (n) => {
 }
 
 showSlides(slideIndex);
+
+setInterval(function(){
+showSlides(++slideIndex)
+},2000)
